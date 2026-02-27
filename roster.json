@@ -1,52 +1,52 @@
 {
-	"teams": {
-		"New Gens": {
-			"helm": { "name": "Sprex5891992", "twitch": "sprexttv" },
-			"mc": { "name": "gingideg1", "twitch": "gingi_de_g" },
-			"flex": { "name": "Ice", "twitch": "icee_sot" },
-			"bilge": { "name": null, "twitch": null }
-		},
-		"TMJ Day One": {
-			"helm": { "name": "backtrackace", "twitch": "backtrackace" },
-			"mc": { "name": "Fabian 8x8", "twitch": "fabian8x8" },
-			"flex": { "name": null, "twitch": null },
-			"bilge": { "name": null, "twitch": null }
-		},
-		"Memento Piva": {
-			"helm": { "name": null, "twitch": null },
+  "teams": {
+    "New Gens": {
+      "helm": { "name": "Sprex5891992", "twitch": "sprexttv" },
+      "mc": { "name": "gingideg1", "twitch": "gingi_de_g" },
+      "flex": { "name": "Ice", "twitch": "icee_sot" },
+      "bilge": { "name": null, "twitch": null }
+    },
+    "TMJ Day One": {
+      "helm": { "name": "backtrackace", "twitch": "backtrackace" },
+      "mc": { "name": "Fabian 8x8", "twitch": "fabian8x8" },
+      "flex": { "name": null, "twitch": null },
+      "bilge": { "name": null, "twitch": null }
+    },
+    "Memento Piva": {
+      "helm": { "name": null, "twitch": null },
       "mc": { "name": "Bom Bonator", "twitch": "bombonator08" },
-			"flex": { "name": null, "twitch": null },
-			"bilge": { "name": "Dusty", "twitch": "dusty_popylacz" }
-		},
-		"Avalanche": {
+      "flex": { "name": null, "twitch": null },
+      "bilge": { "name": "Dusty", "twitch": "dusty_popylacz" }
+    },
+    "Avalanche": {
       "helm": { "name": "Jud (Cannon Slammer)", "twitch": "cannonslammer" },
-			"mc": { "name": "Mr Blizzard", "twitch": "mrblizzard25" },
-			"flex": { "name": "LingoLuck", "twitch": "lingoluck" },
-			"bilge": { "name": null, "twitch": null }
-		},
-		"Nvm Stay Down": {
-			"helm": { "name": "Rhett", "twitch": "rhett_420" },
-			"mc":  {  "name": null, "twitch": null },
-			"flex": { "name": "AlexTheG", "twitch": "alex_the_g" },
-			"bilge": { "name": null, "twitch": null }
-		},
-		"Silverserpent": {
-			"helm": { "name": null, "twitch": null },
+      "mc": { "name": "Mr Blizzard", "twitch": "mrblizzard25" },
+      "flex": { "name": "LingoLuck", "twitch": "lingoluck" },
+      "bilge": { "name": null, "twitch": null }
+    },
+    "Nvm Stay Down": {
+      "helm": { "name": "Rhett", "twitch": "rhett_420" },
+      "mc": { "name": null, "twitch": null },
+      "flex": { "name": "AlexTheG", "twitch": "alex_the_g" },
+      "bilge": { "name": null, "twitch": null }
+    },
+    "Silverserpent": {
+      "helm": { "name": null, "twitch": null },
       "mc": { "name": "MatzMP", "twitch": "matzmps" },
-			"flex": { "name": "peygambersot", "twitch": "wrills" },
-			"bilge": { "name": null, "twitch": null }
-		},
-		"Bohemian Grove": {
-			"helm": { "name": "RutorD", "twitch": "rutord" },
-      "mc": { "name": null, "twitch": null }
-			"flex": { "name": "vvs prize", "twitch": "vvs_prize" },
-      "bilge": { "name": "Enjoi", "twitch": "enjoi_480" },
-		},
-		"Os Leiterios": {
-			"helm": { "name": null, "twitch": null },
-			"mc": { "name": "Pugsirs", "twitch": "pugsirs" },
-			"flex": { "name": "Fat Complex", "twitch": "czmplex_" },
-			"bilge": { "name": "Rinka", "twitch": "rinka_ttv" }
-		}
-	}
+      "flex": { "name": "peygambersot", "twitch": "wrills" },
+      "bilge": { "name": null, "twitch": null }
+    },
+    "Bohemian Grove": {
+      "helm": { "name": "RutorD", "twitch": "rutord" },
+      "mc": { "name": null, "twitch": null },
+      "flex": { "name": "vvs prize", "twitch": "vvs_prize" },
+      "bilge": { "name": "Enjoi", "twitch": "enjoi_480" }
+    },
+    "Os Leiterios": {
+      "helm": { "name": null, "twitch": null },
+      "mc": { "name": "Pugsirs", "twitch": "pugsirs" },
+      "flex": { "name": "Fat Complex", "twitch": "czmplex_" },
+      "bilge": { "name": "Rinka", "twitch": "rinka_ttv" }
+    }
+  }
 }

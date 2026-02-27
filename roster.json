@@ -3,50 +3,50 @@
 		"New Gens": {
 			"helm": { "name": "Sprex5891992", "twitch": "sprexttv" },
 			"mc": { "name": "gingideg1", "twitch": "gingi_de_g" },
-			"flex": { "name": null, "twitch": null },
-			"bilge": { "name": "Dusty2565", "twitch": "dusty_popylacz" }
-		},
-		"Rofs Law": {
-			"helm": { "name": "DeckSwabbie", "twitch": "deckswabbies" },
-			"mc": { "name": null, "twitch": null },
-			"flex": { "name": "iits just J", "twitch": "asidzj" },
-			"bilge": { "name": "Not Hawks8412", "twitch": "not_hawks" }
-		},
-		"Misfits": {
-			"helm": { "name": "Sparky Soup", "twitch": "sparkysoup" },
-			"mc": { "name": null, "twitch": null },
-			"flex": { "name": "Nugget", "twitch": "inu99eti" },
+			"flex": { "name": "Ice", "twitch": "icee_sot" },
 			"bilge": { "name": null, "twitch": null }
 		},
+		"TMJ Day One": {
+			"helm": { "name": "backtrackace", "twitch": "backtrackace" },
+			"mc": { "name": "Fabian 8x8", "twitch": "fabian8x8" },
+			"flex": { "name": null, "twitch": null },
+			"bilge": { "name": null, "twitch": null }
+		},
+		"Memento Piva": {
+			"helm": { "name": null, "twitch": null },
+      "mc": { "name": "Bom Bonator", "twitch": "bombonator08" },
+			"flex": { "name": null, "twitch": null },
+			"bilge": { "name": "Dusty", "twitch": "dusty_popylacz" }
+		},
 		"Avalanche": {
-			"helm": { "name": "idbz", "twitch": "idbz" },
-			"mc": { "name": "Jud (Cannon Slammer)", "twitch": "cannonslammer" },
+      "helm": { "name": "Jud (Cannon Slammer)", "twitch": "cannonslammer" },
+			"mc": { "name": "Mr Blizzard", "twitch": "mrblizzard25" },
 			"flex": { "name": "LingoLuck", "twitch": "lingoluck" },
 			"bilge": { "name": null, "twitch": null }
 		},
-		"Ryo Sucks": {
+		"Nvm Stay Down": {
+			"helm": { "name": "Rhett", "twitch": "rhett_420" },
+			"mc":  {  "name": null, "twitch": null },
+			"flex": { "name": "AlexTheG" "twitch": "alex_the_g" },
+			"bilge": { "name": null, "twitch": null }
+		},
+		"Silverserpent": {
 			"helm": { "name": null, "twitch": null },
-			"mc": { "name": "RegorianX", "twitch": "regorianx" },
-			"flex": { "name": "HellfireOG", "twitch": "hellfireondeck" },
-			"bilge": { "name": "l0st_shadow", "twitch": "l0st_shadoww" }
-		},
-		"Slava Ukraini": {
-			"helm": { "name": "HeDimaLenov", "twitch": "thedimalemonov" },
-			"mc": { "name": "xThemaxy", "twitch": "xthemaxy" },
-			"flex": { "name": "T Rayner T", "twitch": "rayner_kun" },
+      "mc": { "name": "MatzMP", "twitch": "matzmps" },
+			"flex": { "name": "peygambersot", "twitch": "wrills" },
 			"bilge": { "name": null, "twitch": null }
 		},
-		"VS": {
-			"helm": { "name": "Bbucciaratii", "twitch": "zoneccc" },
-			"mc": { "name": "YujianY", "twitch": "oyujianyo" },
-			"flex": { "name": null, "twitch": null },
-			"bilge": { "name": null, "twitch": null }
+		"Bohemian Grove": {
+			"helm": { "name": "RutorD", "twitch": "rutord" },
+      "mc": { "name": null, "twitch": null }
+			"flex": { "name": "vvs prize", "twitch": "vvs_prize" },
+      "bilge": { "name": "Enjoi", "twitch": "enjoi_480" },
 		},
 		"Os Leiterios": {
-			"helm": { "name": "Biggychesss1", "twitch": "chess1201" },
-			"mc": { "name": null, "twitch": null },
+			"helm": { "name": null, "twitch": null },
+			"mc": { "name": "Pugsirs", "twitch": "pugsirs" },
 			"flex": { "name": "Fat Complex", "twitch": "czmplex_" },
-			"bilge": { "name": null, "twitch": null }
+			"bilge": { "name": "Rinka", "twitch": "rinka_ttv" }
 		}
 	}
 }

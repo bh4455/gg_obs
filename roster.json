@@ -9,7 +9,7 @@
     "TMJ": {
       "helm": { "name": "backtrackace", "twitch": "backtrackace" },
       "mc": { "name": "Fabian 8x8", "twitch": "fabian8x8" },
-      "flex": { "name": null, "twitch": null },
+      "flex": { "name": "Rayner", "twitch": "rayner_kun" },
       "bilge": { "name": null, "twitch": null }
     },
     "Memento Piva": {
@@ -43,10 +43,10 @@
       "bilge": { "name": "Enjoi", "twitch": "enjoi_480" }
     },
     "Os Leiterios": {
-      "helm": { "name": null, "twitch": null },
-      "mc": { "name": "Pugsirs", "twitch": "pugsirs" },
+      "helm": { "name": "Chess", "twitch": "chess1201" },
+      "mc": { "name": null, "twitch": null },
       "flex": { "name": "Fat Complex", "twitch": "czmplex_" },
-      "bilge": { "name": "Rinka", "twitch": "rinka_ttv" }
+      "bilge": { "name": null, "twitch": null }
     }
   }
 }

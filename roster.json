@@ -8,9 +8,9 @@
     },
     "TMJ": {
       "helm": { "name": "backtrackace", "twitch": "backtrackace" },
-      "mc": { "name": "Fabian 8x8", "twitch": "fabian8x8" },
-      "flex": { "name": "Rayner", "twitch": "rayner_kun" },
-      "bilge": { "name": null, "twitch": null }
+      "mc": { "name": "Maxy", "twitch": "xthemaxy" },
+      "flex": { "name": null, "twitch": null },
+      "bilge": { "name": "Fabian 8x8", "twitch": "fabian8x8" }
     },
     "Memento Piva": {
       "helm": { "name": null, "twitch": null },
@@ -26,8 +26,8 @@
     },
     "Nvm Stay Down": {
       "helm": { "name": "Rhett", "twitch": "rhett_420" },
-      "mc": { "name": null, "twitch": null },
-      "flex": { "name": "AlexTheG", "twitch": "alex_the_g" },
+      "mc": { "name": "Its just J", "twitch": "asidzj" },
+      "flex": { "name": null, "twitch": null },
       "bilge": { "name": null, "twitch": null }
     },
     "Silverserpent": {
@@ -43,10 +43,10 @@
       "bilge": { "name": "Enjoi", "twitch": "enjoi_480" }
     },
     "Os Leiterios": {
-      "helm": { "name": "Chess", "twitch": "chess1201" },
-      "mc": { "name": null, "twitch": null },
+      "helm": { "name": null, "twitch": null },
+      "mc": { "name": "Pugsirs", "twitch": "pugsirs" },
       "flex": { "name": "Fat Complex", "twitch": "czmplex_" },
-      "bilge": { "name": "Rinka", "twitch": "rinka_ttv" }
+      "bilge": { "name": "Rinka", "twitch": null }
     }
   }
 }

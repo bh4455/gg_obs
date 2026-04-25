@@ -1,13 +1,13 @@
 import os
 import json
-
+import requests
 # =============================================================================
 # TEAM CLASS
 # =============================================================================
 class Team:
     def __init__(self, team_name: str, helm_tup: tuple[str, str] = None, flex_tup: tuple[str, str] = None, 
                  mc_tup: tuple[str, str] = None, bilge_tup: tuple[str, str] = None):
-        # tuples formatted as ({pos}_name, {pos}_twitch_link)
+        # tuples formatted as (name, twitch link)
         self.name = team_name
         self.helm = helm_tup
         self.flex = flex_tup
@@ -20,29 +20,50 @@ class Team:
 # =============================================================================
 ROSTER_FILE = os.path.join(os.path.dirname(__file__), "roster.json")
 TEAM_ROSTER: dict[str, Team] = {}
+GG_MATCH_STREAM_URL = "https://galleygauntlet.gg-timer.com/teams"
 
-def load_roster():
-    """Load team roster from JSON file."""
+def load_roster(from_file = False):
+    """Load team roster from JSON file or GG API."""
     global TEAM_ROSTER
+    data = {}
     
+    if from_file:
+        data = get_roster_from_file()
+    else:
+        data = get_roster_from_api()
+    TEAM_ROSTER.clear()
+    for team_name, team_data in data["teams"].items():
+        TEAM_ROSTER[team_name] = Team(
+            team_name=team_name,
+            helm_tup=tuple(team_data["helm"].values()) if team_data.get("helm") and team_data["helm"].get("name") else None,
+            mc_tup=tuple(team_data["mc"].values()) if team_data.get("mc") and team_data["mc"].get("name") else None,
+            flex_tup=tuple(team_data["flex"].values()) if team_data.get("flex") and team_data["flex"].get("name") else None,
+            bilge_tup=tuple(team_data["bilge"].values()) if team_data.get("bilge") and team_data["bilge"].get("name") else None,
+        )
+        print(team_data)
+    print(f"[Tournament] Loaded {len(TEAM_ROSTER)} teams for rosters")
+def get_roster_from_file():
+    print("[Tournament] Getting match streams from local file")
+    data = {}
     try:
         with open(ROSTER_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        TEAM_ROSTER.clear()
-        for team_name, team_data in data["teams"].items():
-            TEAM_ROSTER[team_name] = Team(
-                team_name=team_name,
-                helm_tup=tuple(team_data["helm"].values()) if team_data.get("helm") and team_data["helm"].get("name") else None,
-                mc_tup=tuple(team_data["mc"].values()) if team_data.get("mc") and team_data["mc"].get("name") else None,
-                flex_tup=tuple(team_data["flex"].values()) if team_data.get("flex") and team_data["flex"].get("name") else None,
-                bilge_tup=tuple(team_data["bilge"].values()) if team_data.get("bilge") and team_data["bilge"].get("name") else None,
-            )
-        print(f"[Tournament] Loaded {len(TEAM_ROSTER)} teams from roster.json")
     except FileNotFoundError:
         print(f"[Tournament] roster.json not found at {ROSTER_FILE}")
     except json.JSONDecodeError as e:
         print(f"[Tournament] Invalid JSON in roster.json: {e}")
+        
+    return data
 
+def get_roster_from_api():
+    print("[Tournament] Getting match streams from API")
+    try:
+        resp = requests.get(GG_MATCH_STREAM_URL)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception as e:
+        print(f"[Tournament] exception thrown on api call: {e}")
+    return {}
 
 def get_team(team_name: str) -> Team | None:
     """Get a team by name from the roster."""
@@ -123,6 +144,7 @@ def find_source_by_prefix(obs, prefix: str) -> str | None:
 def set_browser_source_url(obs, prefix: str, player_name: str | None, twitch_username: str | None):
     """Update a browser source with a Twitch embed URL, or clear if None. Also renames the source."""
     if not prefix:
+        print("[Tournament] No prefix provided when setting bsource")
         return
     
     source_name = find_source_by_prefix(obs, prefix)
@@ -137,7 +159,7 @@ def set_browser_source_url(obs, prefix: str, player_name: str | None, twitch_use
         return
     
     # Build new source name with player name
-    if player_name:
+    if player_name and twitch_username:
         new_name = f"{prefix} {player_name}"
     else:
         new_name = prefix

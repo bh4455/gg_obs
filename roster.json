@@ -1,52 +1,52 @@
 {
-  "teams": {
-    "New Gens": {
-      "helm": { "name": "Sprex5891992", "twitch": "sprexttv" },
-      "mc": { "name": "gingideg1", "twitch": "gingi_de_g" },
-      "flex": { "name": "Ice", "twitch": "icee_sot" },
-      "bilge": { "name": null, "twitch": null }
-    },
-    "TMJ": {
-      "helm": { "name": "backtrackace", "twitch": "backtrackace" },
-      "mc": { "name": "Maxy", "twitch": "xthemaxy" },
-      "flex": { "name": null, "twitch": null },
-      "bilge": { "name": "Fabian 8x8", "twitch": "fabian8x8" }
-    },
-    "Memento Piva": {
-      "helm": { "name": null, "twitch": null },
-      "mc": { "name": "Bom Bonator", "twitch": "bombonator08" },
-      "flex": { "name": null, "twitch": null },
-      "bilge": { "name": "Dusty", "twitch": "dusty_popylacz" }
-    },
-    "Avalanche": {
-      "helm": { "name": "Jud (Cannon Slammer)", "twitch": "cannonslammer" },
-      "mc": { "name": "Mr Blizzard", "twitch": "mrblizzard25" },
-      "flex": { "name": "LingoLuck", "twitch": "lingoluck" },
-      "bilge": { "name": null, "twitch": null }
-    },
-    "Nvm Stay Down": {
-      "helm": { "name": "Rhett", "twitch": "rhett_420" },
-      "mc": { "name": "Its just J", "twitch": "asidzj" },
-      "flex": { "name": null, "twitch": null },
-      "bilge": { "name": null, "twitch": null }
-    },
-    "Silverserpent": {
-      "helm": { "name": null, "twitch": null },
-      "mc": { "name": "MatzMP", "twitch": "matzmps" },
-      "flex": { "name": "peygambersot", "twitch": "wrills" },
-      "bilge": { "name": null, "twitch": null }
-    },
-    "Bohemian Grove": {
-      "helm": { "name": "RutorD", "twitch": "rutord" },
-      "mc": { "name": null, "twitch": null },
-      "flex": { "name": "vvs prize", "twitch": "vvs_prize" },
-      "bilge": { "name": "Enjoi", "twitch": "enjoi_480" }
-    },
-    "Os Leiterios": {
-      "helm": { "name": null, "twitch": null },
-      "mc": { "name": "Pugsirs", "twitch": "pugsirs" },
-      "flex": { "name": "Fat Complex", "twitch": "czmplex_" },
-      "bilge": { "name": "Rinka", "twitch": null }
-    }
-  }
+	"teams": {
+		"Avalanche": {
+			"helm": { "name": "cannonslammer", "twitch": null },
+			"mc": { "name": "mrblizzard25", "twitch": "mrblizzard25" },
+			"flex": { "name": "rhett12", "twitch": "rhett_420" },
+			"bilge": { "name": "ghspt", "twitch": null }
+		},
+		"BB On MC": {
+			"helm": { "name": "casuallycade", "twitch": null },
+			"mc": { "name": "bucketboy717", "twitch": "bucketboy717" },
+			"flex": { "name": "ncnq", "twitch": "eknq" },
+			"bilge": { "name": "pjlme", "twitch": "pjlme1" }
+		},
+		"Memento Piva": {
+			"helm": { "name": "bepii", "twitch": null },
+			"mc": { "name": "cul_guy_in_glases", "twitch": null },
+			"flex": { "name": "__ysf", "twitch": "youzeo1" },
+			"bilge": { "name": "soapchikman", "twitch": "soapchikman_" }
+		},
+		"Os Leiteiros": {
+			"helm": { "name": "chess1200", "twitch": "chess1201" },
+			"mc": { "name": "supermystere", "twitch": "super_is_mc" },
+			"flex": { "name": "pars6605", "twitch": "czmplex_" },
+			"bilge": { "name": "dead_lunar", "twitch": null }
+		},
+		"TFF": {
+			"helm": { "name": "exerly", "twitch": "exerly" },
+			"mc": { "name": "asidzj", "twitch": "asidzj" },
+			"flex": { "name": "__scrum", "twitch": null },
+			"bilge": { "name": "hawks0420", "twitch": "not_hawks" }
+		},
+		"Team Kemp": {
+			"helm": { "name": "tkemp", "twitch": "tkemp_" },
+			"mc": { "name": "dfmg", "twitch": "dfmgrl" },
+			"flex": { "name": "spacejamsocks", "twitch": null },
+			"bilge": { "name": "just_kaspy", "twitch": "just_kaspy" }
+		},
+		"Team Nagin Dance": {
+			"helm": { "name": "spidy.fps", "twitch": "spidyfps_tv" },
+			"mc": { "name": "ronyy_777", "twitch": null },
+			"flex": { "name": "_mrplus_", "twitch": null },
+			"bilge": { "name": "aarupatil", "twitch": "@atharv_sachin_waikar" }
+		},
+		"Tiki Tiki": {
+			"helm": { "name": "cpt_tdm_cal", "twitch": "thedimalemonov" },
+			"mc": { "name": "krics.", "twitch": "kriics" },
+			"flex": { "name": "lightskindemon.", "twitch": null },
+			"bilge": { "name": "jooabooa", "twitch": "madbooaa" }
+		}
+	}
 }

@@ -20,7 +20,7 @@ class Team:
 # =============================================================================
 ROSTER_FILE = os.path.join(os.path.dirname(__file__), "roster.json")
 TEAM_ROSTER: dict[str, Team] = {}
-GG_MATCH_STREAM_URL = "https://galleygauntlet.gg-timer.com/teams"
+GG_MATCH_STREAM_URL = "https://www.galleygauntlet.com/teams"
 
 def load_roster(from_file = False):
     """Load team roster from JSON file or GG API."""
